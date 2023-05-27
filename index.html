@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Note App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+	<header>
+		<img class="logo" src="logo.png" alt="Note App Logo">
+		<h1>My notes</h1>
+	</header>
+	<div class="container">
+		<form id="note-form">
+			<label for="note-title">Title: </label>
+			<input type="text" id="note-title" name="note-title" required>
+			<label for="note-text">Note text: </label>
+			<textarea id="note-text" name="note-text" required></textarea>
+			
+			<button type="submit">Add a note: </button>
+		
+		</form>
+		<ul id="note-list">
+			<!-- Zametki:  -->
+		</ul>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
